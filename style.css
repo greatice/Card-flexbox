@@ -1,0 +1,143 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.container3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.beauty-card {
+  width: 30%;
+  position: relative;
+  border-radius: 18px;
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+.beauty-card__header img {
+  width: 100%;
+}
+.beauty-card__body {
+  background: white;
+  width: 90%;
+  margin: 0 auto;
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 15px 5px;
+  border-radius: 18px;
+  box-shadow: 10px 10px 10px 0px #705e5e;
+  display: flex;
+}
+.beauty-card__header {
+  overflow: hidden;
+  border-radius: 18px;
+  position: relative;
+}
+
+.describe {
+  color: grey;
+}
+
+.star {
+  display: flex;
+}
+
+.reviews {
+  display: flex;
+}
+
+.reviews span {
+  margin: 5px 5px 5px 5px;
+}
+
+.material-icons.stars {
+  color: #ecc819;
+}
+
+.material-icons.arrow-forward {
+  color: white;
+  position: absolute;
+  top: 7px;
+}
+
+.action-arrow a {
+  text-decoration: none;
+  position: absolute;
+  right: 10px;
+  bottom: -10px;
+  padding: 0px;
+}
+
+.star i {
+  margin: 0 0px;
+  width: 25px;
+}
+
+h4 {
+  font-size: 140%;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.button-forward {
+  padding: 0;
+  border-radius: 30px;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(to top right, #3553fe, #1e5ffe, #0a67feea);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 130px;
+  right: 20px;
+}
+
+.like {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  color: white;
+}
+
+.star img {
+  width: 15%;
+}
+
+p {
+  margin: 0;
+  position: relative;
+  display: flex;
+  font-size: 120%;
+}
+
+.price {
+  margin-top: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
